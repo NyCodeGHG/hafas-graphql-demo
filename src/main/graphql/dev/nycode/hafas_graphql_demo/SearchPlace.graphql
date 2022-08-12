@@ -1,0 +1,5 @@
+query SearchPlace($query: String!) {
+    searchPlace(query: $query) {
+        name
+    }
+}
